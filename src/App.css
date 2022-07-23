@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+  color: #f2133c;
+}
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+button {
+  padding: 10px 15px;
+  border-radius: 25px;
+  border: none;
+  background-color: #2e2e2e;
+  color: white;
+  font-weight: bold;
+}
+button:hover {
+  cursor: pointer;
+  background-color: #f2133c;
+}
+
+body {
+  background-image: url("assets/index.png");
+  width: 100%;
+  background-size: cover;
+}

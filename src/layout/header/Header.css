@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: centre;
+  justify-content: space-between;
+  padding: 15px 120px;
+}
+.brand-logo {
+  align-self: center;
+}
+.brand-logo img {
+  width: 200px;
+}
+.header-links {
+  font-weight: bold;
+}
+nav a {
+  padding: 0 10px;
+}
