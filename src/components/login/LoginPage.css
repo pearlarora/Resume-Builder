@@ -1,0 +1,89 @@
+#section-1 {
+    height: 515px;
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+}
+
+/* left half */
+#left-half {
+    width: 25%;
+    padding:50px;
+    background-color: #2E2E2E;
+    border-radius: 25px;
+}
+#login-form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#login-form h3 {
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 20px;
+}
+input:hover {
+    cursor: pointer;
+}
+input:focus {
+    background-color: #e9e7e7;
+}
+input[type=email], input[type=password] {
+    display: block;
+    margin: 5px 0 18px 0;
+    padding: 10px;
+    width: 94%;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 600;
+}
+::placeholder {
+    color: #adadad;
+}
+#email-id, #password {
+    width: 100%;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=submit] {
+    color: white;
+    background-color: #F2133C;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: bold;
+}
+input[type=submit]:hover {
+    color: black;
+    background-color: white;
+}
+#last-line h4 {
+    margin-top: 25px;
+    color: white;
+    font-weight: lighter;
+    font-weight: 400;
+}
+#signup {
+    color: #F2133C;
+}
+#signup:hover {
+    color: white;
+}
+
+/* right half */
+#right-half {
+    text-align: right;
+}
+#right-half h1 {
+    color: #F2133C;
+    font-size: 60px;
+}
+#right-half h4 {
+    font-size: 25px;
+}

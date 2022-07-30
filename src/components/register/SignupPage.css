@@ -1,0 +1,86 @@
+#section-1 {
+  height: 515px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/* left half */
+#left {
+  width: 50%;
+}
+#left h3 {
+  font-size: 25px;
+}
+#left h1 {
+  font-size: 50px;
+}
+
+/* right half */
+#right {
+  width: 30%;
+  padding: 50px;
+  background-color: #2e2e2e;
+  border-radius: 25px;
+}
+#sign-up-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+input:hover {
+  cursor: pointer;
+}
+input:focus {
+  background-color: #e9e7e7;
+}
+input[type] {
+  padding: 10px;
+  margin: 5px 0 18px 0;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 600;
+}
+::placeholder {
+  color: #adadad;
+}
+input[type="email"],
+input[type="number"] {
+  display: block;
+  width: 94%;
+}
+#email-id,
+#phone-no {
+  width: 100%;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="submit"] {
+  color: white;
+  background-color: #f2133c;
+  border: none;
+  border-radius: 15px;
+  padding: 10px 30px;
+  font-size: 16px;
+  font-weight: bold;
+}
+input[type="submit"]:hover {
+  color: black;
+  background-color: white;
+}
+#last-line h4 {
+  color: white;
+  font-weight: lighter;
+  font-weight: 400;
+}
+#login {
+  color: #f2133c;
+}
+#login:hover {
+  color: white;
+}

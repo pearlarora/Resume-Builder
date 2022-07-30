@@ -1,8 +1,10 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import logo from "../../assets/logo.png";
 import "./Header.css";
 
 export default function Header() {
+  const navigate = useNavigate();
   return (
     <div className="header">
       <a href="#" className="brand-logo">
@@ -16,12 +18,20 @@ export default function Header() {
         <a href="#" class="header-links">
           developers
         </a>
-        <a href="www.facebook.com">
-          <button>log in</button>
-        </a>
-        <a href="www.facebook.com">
-          <button>sign up</button>
-        </a>
+        <button
+          onClick={() => {
+            navigate("/login", { replace: true });
+          }}
+        >
+          log in
+        </button>
+        <button
+          onClick={() => {
+            navigate("/signup", { replace: true });
+          }}
+        >
+          sign up
+        </button>
       </nav>
     </div>
   );
